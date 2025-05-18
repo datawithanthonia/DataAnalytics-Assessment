@@ -52,6 +52,7 @@ FROM savings_savingsaccount
 WHERE owner_id = '0257625a02344b239b41e1cbe60ef080'
 GROUP BY month
 ORDER BY month DESC;
+
 ## Question 3: Account Inactivity Alert
 
 ### **Approach**:
@@ -74,6 +75,7 @@ SELECT * FROM savings_savingsaccount
 WHERE plan_id = '002b48c9f6ec48fdb586bd019a85aa9a'
 ORDER BY transaction_date DESC
 LIMIT 5;
+
 ## Question 4: Customer Lifetime Value (CLV)
 
 ### **Approach**:
